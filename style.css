@@ -1,1 +1,80 @@
+body {
+    background-color: rgb(69, 54, 32);
+}
 
+h1 {
+    text-align: center;
+    color: gold;
+    font-family: cursive;
+    font-size: 50px;
+}
+a{
+    display: inline-block;
+    justify-content: center;
+    font-size: 25px;
+    margin: 20px;
+    font-family:sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+    color:wheat;
+}
+.h{
+    font-size: 30px;
+    text-align: center;
+    font-family:cursive;
+    display: inline-block;
+}
+.hhh{
+    display: inline-block;
+}
+footer{
+    background-color: rgb(37, 32, 32);
+    color: white;
+}
+main img{
+    width: 350px;
+    height: 400px;
+}
+.img{
+    display: inline-block;
+    width: 400px;
+}
+section{
+    font-size: 30px;
+    text-align: center;
+    font-family:cursive;
+    margin: 20px;
+    background-color: rgb(41, 25, 6);
+    color: wheat;
+}
+article{
+    background-color: rgb(185, 185, 185);
+    font-size: 20px;
+    margin: 10px;
+    font-family: monospace;
+}
+a:hover{
+    color: gold;
+}
+h1:hover{
+    background-color: rgb(248, 212, 157);
+    box-shadow: 25px;
+}
+
+article:hover{
+    background-color: rgb(230, 241, 186);
+}
+.qq{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav{
+    background-color: rgb(129, 85, 49);
+    display: flex;
+    justify-content: space-between;
+}
+
+header{
+    background-image: linear-gradient(white, rgb(129, 85, 49));
+}
